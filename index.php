@@ -20,11 +20,12 @@
 </head>
 <body>
 <div class="container mainContainer">
+    <!-- Top Search Bar -->
     <div class="topSearchMain">
         <div class="middleInner col-lg-6">
             <div class="leftBtn col-lg-2">
                 <div class="innerCont">
-                    
+                    <div class="innerImage"></div>
                 </div>
             </div>
             <div class="middleSearchInput col-lg-8">
@@ -36,8 +37,23 @@
             </div>
             <div class="rightBtn col-lg-2">
                 <div class="innerCont">
-                    
+                    <div class="innerImage"></div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Middle Dropdowns -->
+    <div class="middleDropdowns">
+        <div class="middleInner col-lg-10">
+            <div class="boxDropdown col-lg-4" id="cat1">
+
+            </div>
+            <div class="boxDropdown col-lg-4" id="cat2">
+
+            </div>
+            <div class="boxDropdown col-lg-4" id="cat3">
+
             </div>
         </div>
     </div>
