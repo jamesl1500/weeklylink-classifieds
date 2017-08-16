@@ -1,0 +1,114 @@
+// Dark Primary
+$darkPrimaryColor: #213246;
+
+// Primary
+$primaryColor: #52a6e6;
+
+// Light Primary
+$lightPrimaryColor: #FFCDD2;
+
+// Accent Color
+$accentColor: #FF5252;
+
+// Primary Text Color
+$primaryText: #212121;
+
+// Secondary Text Color
+$secondaryText: #727272;
+
+// Divider Color
+$dividerColor: #B6B6B6;
+
+$primaryFont: 'Titillium Web';
+
+@import 'Reset';
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// Main cont
+.mainContainer{
+  margin-top: 50px;
+
+  .topSearchMain{
+
+    .middleInner{
+      margin: 0% auto;
+      float: none;
+
+      height: 55px;
+
+      .leftBtn{
+        height: 100%;
+
+        .innerCont{
+          height: 100%;
+          background: rgb(188, 224, 198);
+
+          border-top-left-radius: 5px;
+          border-bottom-left-radius: 5px;
+        }
+      }
+
+      .middleSearchInput{
+        height: 100%;
+
+        padding: 0px;
+
+        .innerCont{
+          height: 100%;
+          background: rgb(237, 239, 240);
+
+          form{
+
+            input[type='text']{
+              width: 100%;
+              height: 55px;
+
+              padding-left: 15px;
+
+              border: none;
+              outline: none;
+
+              background: transparent;
+
+              font-weight: bold;
+              font-size: 1.2em;
+            }
+          }
+        }
+      }
+
+      .rightBtn{
+        height: 100%;
+
+        .innerCont{
+          height: 100%;
+          background: rgb(188, 224, 198);
+
+          border-top-right-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+      }
+    }
+  }
+}
