@@ -47,7 +47,20 @@
     <div class="middleDropdowns">
         <div class="middleInner col-lg-10">
             <div class="boxDropdown col-lg-4" id="cat1">
-
+                <div class="dropDownInner">
+                    <div class="dropDownLabelHold col-lg-9">
+                        <span class="dropDownLabel">CATEGORIES</span>
+                    </div>
+                    <div class="dropDownButton col-lg-3">
+                        <h2><i class="fa fa-caret-down" aria-hidden="true"></i></h2>
+                    </div>
+                    <div class="dropDownList">
+                        <ul class="innerCategoriesList">
+                            <li data-catid="1" data-catname="cat 1">Cat 1</li>
+                            <li data-catid="2" data-catname="cat 1">Cat 2</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <div class="boxDropdown col-lg-4" id="cat2">
 

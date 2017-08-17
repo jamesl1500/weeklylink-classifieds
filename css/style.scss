@@ -134,4 +134,31 @@ $primaryFont: 'Titillium Web';
       }
     }
   }
+
+  .middleDropdowns{
+    margin-top: 80px;
+
+    .middleInner{
+
+      .boxDropdown{
+
+        .dropDownInner{
+
+          .dropDownLabelHold{
+            background: rgb(216, 232, 213);
+
+            height: 45px;
+
+            span{
+              font-size:
+            }
+          }
+
+          .dropDownButton{
+            background: rgb(188, 224, 198);
+          }
+        }
+      }
+    }
+  }
 }
